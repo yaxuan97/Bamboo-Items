@@ -1,0 +1,31 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)" #mandatory (26 is current forge version)
+issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+modId="bambooitems" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Bamboo Items" #mandatory
+# A URL to query for updates for this mod. See the JSON update specification <here>
+#updateJSONURL="http://myurl.me/" #optional
+displayURL="https://github.com/gaz492" #optional
+logoFile="banboos.png" #optional
+# A text field displayed in the mod UI
+credits="Gaz" #optional
+# A text field displayed in the mod UI
+authors="Gaz, yaxuan97" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+Adds some bamboo Items
+'''
+#[[dependencies.bambooitem]] #optional
+#    modId="forge" #mandatory
+#    mandatory=true #mandatory
+#    versionRange="[28,)" #mandatory
+#    ordering="NONE"
+#    side="BOTH"
+#[[dependencies.bambooitem]]
+#    modId="minecraft"
+#    mandatory=true
+#    versionRange="[1.14.4]"
+#    ordering="NONE"
+#    side="BOTH"

@@ -1,0 +1,32 @@
+{
+  "textures": {
+    "bamb": "bambooitems:block/bamboo_fence",
+    "particle": "block/bamboo_stalk"
+  },
+  "elements": [
+    {
+      "name": "top bar",
+      "from": [7, 12, 0],
+      "to": [9, 15, 9],
+      "faces": {
+        "north": {"uv": [13, 13, 16, 16], "texture": "#bamb", "cullface": "north"},
+        "east": {"uv": [7, 0, 16, 3], "texture": "#bamb"},
+        "west": {"uv": [7, 0, 16, 3], "rotation": 180, "texture": "#bamb"},
+        "up": {"uv": [0, 0, 2, 9], "texture": "#bamb"},
+        "down": {"uv": [0, 2, 2, 11], "texture": "#bamb"}
+      }
+    },
+    {
+      "name": "lower bar",
+      "from": [7, 6, 0],
+      "to": [9, 9, 9],
+      "faces": {
+        "north": {"uv": [13, 13, 16, 16], "texture": "#bamb", "cullface": "north"},
+        "east": {"uv": [4, 9, 13, 12], "texture": "#bamb"},
+        "west": {"uv": [4, 9, 13, 12], "rotation": 180, "texture": "#bamb"},
+        "up": {"uv": [0, 3, 2, 12], "texture": "#bamb"},
+        "down": {"uv": [0, 7, 2, 16], "texture": "#bamb"}
+      }
+    }
+  ]
+}

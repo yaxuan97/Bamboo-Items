@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"axis=y": {
+			"model": "bambooitems:block/bamboo_plank"
+		},
+		"axis=z": {
+			"model": "bambooitems:block/bamboo_plank",
+			"x": 90
+		},
+		"axis=x": {
+			"model": "bambooitems:block/bamboo_plank",
+			"x": 90,
+			"y": 90
+		}
+	}
+}
