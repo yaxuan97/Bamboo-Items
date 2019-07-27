@@ -1,13 +1,13 @@
 modLoader="javafml" #mandatory
 loaderVersion="[28,)" #mandatory (26 is current forge version)
-issueTrackerURL="http://my.issue.tracker/" #optional
+issueTrackerURL="https://github.com/yaxuan97/Bamboo-Items/issues" #optional
 [[mods]] #mandatory
 modId="bambooitems" #mandatory
 version="${file.jarVersion}" #mandatory
 displayName="Bamboo Items" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 #updateJSONURL="http://myurl.me/" #optional
-displayURL="https://github.com/gaz492" #optional
+displayURL="https://github.com/yaxuan97/Bamboo-Items" #optional
 logoFile="banboos.png" #optional
 # A text field displayed in the mod UI
 credits="Gaz" #optional
